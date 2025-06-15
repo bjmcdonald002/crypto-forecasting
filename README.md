@@ -38,7 +38,7 @@ Python (NumPy, pandas, scikit-learn) · Matplotlib · Seaborn
 
 Future work will integrate chaos theory and sentiment analysis for crypto forecasting.
 
-## 👽 Author
+## Author
 
 *Barrett James McDonald — Ph.D. Student, University of South Florida*
 
