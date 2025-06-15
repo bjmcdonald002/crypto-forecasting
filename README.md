@@ -10,7 +10,7 @@ This project develops and tests a variety of models — from regression trees to
 
 Includes processed XRP market data at various granularities for experimentation and model benchmarking.
 
-🔗 [Raw minute-level XRP data on Kaggle](https://www.kaggle.com/code/pmop555/xrpusd-binance-l)
+🔗 [Raw minute-level XRP data on Kaggle](https://www.kaggle.com/datasets/imranbukhari/comprehensive-xrpusd-1m-data)
 
 - `xrpdata_sample.csv` — 10,000-observation sample for quick experiments
 
