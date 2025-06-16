@@ -12,7 +12,7 @@ Includes processed XRP market data at various granularities for experimentation 
 
 🔗 [Raw minute-level XRP data on Kaggle](https://www.kaggle.com/datasets/imranbukhari/comprehensive-xrpusd-1m-data)
 
-- `xrpdata_sample.csv` — 10,000-observation sample for quick experiments
+- `xrpdata_2025_sample.csv` — 10,000-observation sample from 2025 XRP pricing data for quick experiments
 
 
 ## 🔍 Methods & Features
