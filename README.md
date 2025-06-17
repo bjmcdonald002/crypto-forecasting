@@ -8,12 +8,14 @@ This project develops and tests a variety of models — from regression trees to
 
 ## 📂 Dataset
 
-Includes processed XRP market data at various granularities for experimentation and model benchmarking.
+This repository uses **minute-level XRP market data** to support time series forecasting experiments.
 
-🔗 [Raw minute-level XRP data on Kaggle](https://www.kaggle.com/datasets/imranbukhari/comprehensive-xrpusd-1m-data)
+🔗 [Raw historical XRP data on Kaggle](https://www.kaggle.com/datasets/imranbukhari/comprehensive-xrpusd-1m-data)
 
-- `xrpdata_2025_sample.csv` — 10,000-observation sample from 2025 XRP pricing data for quick experiments
-
+- `xrpdata_2025.csv` — Full 2025 XRP price series.  
+   - January 1, 2025 to mid-February 2025 sourced from the Kaggle dataset.
+   - February 2025 to June 13, 2025 retrieved programmatically and appended to create a continuous 2025 dataset.
+   - This file preserves minute-level granularity and chronological order, ensuring clean training and testing for forecasting models.
 
 ## 🔍 Methods & Features
 
