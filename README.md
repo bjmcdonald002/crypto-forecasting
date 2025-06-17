@@ -30,7 +30,8 @@ This repository uses **minute-level XRP market data** to support time series for
 
 ## 💡 Key Results
 
-> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation — forming a trustworthy baseline for more advanced models.  
+> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation — forming a trustworthy baseline for more advanced models.
+> 
 > Random Forest models further reduce variance and maintain high forecasting accuracy across sequential blocks, showcasing the value of ensemble averaging for stable crypto time series predictions.
 
 ## 🛠 Tools Used
