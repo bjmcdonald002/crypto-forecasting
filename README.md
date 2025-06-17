@@ -23,14 +23,15 @@ This repository uses **minute-level XRP market data** to support time series for
 * Decision tree regression with cost-complexity pruning
 * Block walk-forward cross-validation to preserve temporal order
 * Plans to expand to linear models, ensembles, and neural networks
-
 ## 📁 Files
 
-* `reg_tree_xrpdata.ipynb` — Baseline and pruned tree models with block walk-forward validation
+- `reg_tree_xrpdata.ipynb` — Baseline and pruned decision tree models with block walk-forward validation.
+- `rand_forest_xrpdata.ipynb` — Random Forest model with time-aware training, contiguous hold-out testing, and block walk-forward cross-validation.
 
-## 💡 Key Result
+## 💡 Key Results
 
-> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation — forming a trustworthy baseline for more advanced models.
+> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation — forming a trustworthy baseline for more advanced models.  
+> Random Forest models further reduce variance and maintain high forecasting accuracy across sequential blocks, showcasing the value of ensemble averaging for stable crypto time series predictions.
 
 ## 🛠 Tools Used
 
