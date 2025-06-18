@@ -4,7 +4,7 @@ Comprehensive time series forecasting pipelines for cryptocurrency markets, usin
 
 ## 📊 Project Overview
 
-This project develops and tests a variety of models — from regression trees to neural networks — to forecast short-term cryptocurrency prices (currently focused on XRP). Rigorous time-aware validation ensures results are realistic and reproducible.
+This project develops and tests a variety of models to forecast short-term cryptocurrency prices (currently focused on XRP). Rigorous time-aware validation ensures results are realistic and reproducible.
 
 ## 📂 Dataset
 
@@ -30,7 +30,7 @@ This repository uses **minute-level XRP market data** to support time series for
 
 ## 💡 Key Results
 
-> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation — forming a trustworthy baseline for more advanced models.
+> Initial decision tree models demonstrate consistent short-term forecast accuracy under robust block walk-forward validation forming a trustworthy baseline for more advanced models.
 > 
 > Random Forest models further reduce variance and maintain high forecasting accuracy across sequential blocks, showcasing the value of ensemble averaging for stable crypto time series predictions.
 
@@ -44,7 +44,7 @@ Future work will integrate chaos theory and sentiment analysis for crypto foreca
 
 ## Author
 
-*Barrett James McDonald — Ph.D. Student, University of South Florida*
+*Barrett James McDonald, Ph.D. Student, University of South Florida*
 
 ---
 
