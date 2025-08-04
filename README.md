@@ -12,7 +12,7 @@ All results are validated using time-aware methods to ensure realistic and repro
 
 This repository uses minute-level XRP market data to support time series forecasting and volatility analysis.
 
-- `xrpdata_2025.csv` — Full 2025 XRP price series through July 18, 2025.  
+- `xrpdata_2025.csv` - Full 2025 XRP price series through July 18, 2025.  
   This dataset was compiled from Binance API queries and cleaned to ensure continuity and correct timestamp alignment.  
   The file maintains minute-level granularity for modeling, feature engineering, and volatility study.
 
@@ -26,9 +26,9 @@ This repository uses minute-level XRP market data to support time series forecas
 
 ## 📁 Files
 
-- `reg_tree_xrpdata.ipynb` — Baseline and pruned decision tree models with block walk-forward validation.
-- `rand_forest_xrpdata.ipynb` — Random Forest model with time-aware training, contiguous hold-out testing, and walk-forward cross-validation.
-- `xrp_logreturn_range_comp.ipynb` — Exploratory notebook comparing log return and raw range behavior during both a major market event and a recent trading week. Includes time-window visualizations and distributional analysis of directional movement vs. intraperiod variability.
+- `reg_tree_xrpdata.ipynb` - Baseline and pruned decision tree models with block walk-forward validation.
+- `rand_forest_xrpdata.ipynb` - Random Forest model with time-aware training, contiguous hold-out testing, and walk-forward cross-validation.
+- `xrp_logreturn_range_comp.ipynb` - Exploratory notebook comparing log return and raw range behavior during both a major market event and a recent trading week. Includes time-window visualizations and distributional analysis of directional movement vs. intraperiod variability.
 
 ## 💡 Key Results
 
