@@ -29,6 +29,7 @@ This repository uses minute-level XRP market data to support time series forecas
 - `reg_tree_xrpdata.ipynb` - Baseline and pruned decision tree models with block walk-forward validation.
 - `rand_forest_xrpdata.ipynb` - Random Forest model with time-aware training, contiguous hold-out testing, and walk-forward cross-validation.
 - `xrp_logreturn_range_comp.ipynb` - Exploratory notebook comparing log return and raw range behavior during both a major market event and a recent trading week. Includes time-window visualizations and distributional analysis of directional movement vs. intraperiod variability.
+- `xrpdata_mlp.ipynb` - Uses a simple MLP to forecast hourly XRP prices with lagged features, followed by a threshold-based trading simulation and comparison to a buy-and-hold benchmark.
 
 ## 💡 Key Results
 
@@ -37,10 +38,13 @@ This repository uses minute-level XRP market data to support time series forecas
 > Random Forest models further reduce variance and maintain high forecasting accuracy across sequential blocks, highlighting the value of ensemble averaging for stable crypto time series predictions.  
 >  
 > Volatility analysis reveals that log return and raw range capture distinct aspects of market behavior. Log return marks directional displacement between closes, while raw range highlights turbulent candle-level motion. Used together, they provide a richer picture of short-term price dynamics.
+>
+> A simple MLP model trained on lagged hourly price features achieved strong predictive accuracy, but a basic threshold-based trading strategy underperformed, highlighting the gap between forecast precision and real-world trading performance.
 
 ## 🛠 Tools Used
 
-Python (NumPy, pandas, scikit-learn) · Matplotlib · Seaborn
+Python · NumPy · pandas · scikit-learn · TensorFlow / Keras · Matplotlib · Jupyter Notebook · LaTeX
+
 
 ## 📄 Related Materials
 
