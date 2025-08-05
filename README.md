@@ -12,7 +12,7 @@ All results are validated using time-aware methods to ensure realistic and repro
 
 This repository uses minute-level XRP market data to support time series forecasting and volatility analysis.
 
-- `xrpdata_2025.csv` - Full 2025 XRP price series through July 18, 2025.  
+- `xrpdata_2025.csv` - Full 2025 XRP price series through July 25, 2025.  
   This dataset was compiled from Binance API queries and cleaned to ensure continuity and correct timestamp alignment.  
   The file maintains minute-level granularity for modeling, feature engineering, and volatility study.
 
@@ -45,10 +45,9 @@ This repository uses minute-level XRP market data to support time series forecas
 
 Python · NumPy · pandas · scikit-learn · TensorFlow / Keras · Matplotlib · Jupyter Notebook · LaTeX
 
+## 🔮 Future Work
 
-## 📄 Related Materials
-
-Future work will integrate chaos theory and sentiment analysis for crypto forecasting.
+Future development will incorporate chaos theory and sentiment analysis to improve crypto forecasting.
 
 ## Author
 
