@@ -18,11 +18,11 @@ This repository uses minute-level XRP market data to support time series forecas
 
 ## 🔍 Methods & Features
 
-* Lagged feature engineering for causal forecasting
-* Decision tree regression with cost-complexity pruning
-* Block walk-forward cross-validation to preserve temporal order
-* Exploratory volatility analysis using log return and raw range
-* Plans to expand to linear models, ensembles, and neural networks
+• Time-aware walk-forward cross-validation  
+• Lagged and rolling feature engineering for causal forecasting  
+• Decision tree and ensemble methods with cost-complexity pruning  
+• Exploratory volatility metrics (log returns, raw ranges, and mixed signals)
+• Planned extensions: linear baselines, neural networks, and chaos-based forecasting
 
 ## 📁 Files
 
@@ -30,6 +30,7 @@ This repository uses minute-level XRP market data to support time series forecas
 - `rand_forest_xrpdata.ipynb` - Random Forest model with time-aware training, contiguous hold-out testing, and walk-forward cross-validation.
 - `xrp_logreturn_range_comp.ipynb` - Exploratory notebook comparing log return and raw range behavior during both a major market event and a recent trading week. Includes time-window visualizations and distributional analysis of directional movement vs. intraperiod variability.
 - `xrpdata_mlp.ipynb` - Uses a simple MLP to forecast hourly XRP prices with lagged features, followed by a threshold-based trading simulation and comparison to a buy-and-hold benchmark.
+- `LSTM_xrpdata.ipynb` - LSTM model trained on hourly XRP data using lagged and rolling features. Includes sequentialized input generation, walk-forward validation, and a comparison of model-guided trading results against a buy-and-hold benchmark.
 
 ## 💡 Key Results
 
@@ -40,6 +41,8 @@ This repository uses minute-level XRP market data to support time series forecas
 > Volatility analysis reveals that log return and raw range capture distinct aspects of market behavior. Log return marks directional displacement between closes, while raw range highlights turbulent candle-level motion. Used together, they provide a richer picture of short-term price dynamics.
 >
 > A simple MLP model trained on lagged hourly price features achieved strong predictive accuracy, but a basic threshold-based trading strategy underperformed, highlighting the gap between forecast precision and real-world trading performance.
+>
+> A recurrent neural network (LSTM) trained on lagged hourly XRP features achieved strong prediction accuracy, effectively capturing local trend dynamics. While its predictions were smoother than actual market movements, a simple model-guided trading simulation outperformed a passive buy-and-hold benchmark, indicating that the model identified meaningful short-term directional signals.
 
 ## 🛠 Tools Used
 
